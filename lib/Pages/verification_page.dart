@@ -9,7 +9,7 @@ import '../widgets/resend_button.dart';
 
 class VerificationPage extends StatelessWidget {
   final VerificationController _controller = Get.put(VerificationController());
-  final box = GetStorage(); // Initialize GetStorage
+  final box = GetStorage(); 
 
   @override
   Widget build(BuildContext context) {
